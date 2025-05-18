@@ -3,33 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task Manger</title>
+    <title>Task Manager-About</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <header>
 <nav class="Navbar">
-<h1>Task Manger</h1>
-<ul>
+    <div class="logo-tittle">
+      <img src="images/LOGO1.png" alt="Website Logo" style="width: 50px; height: 50px;">
+    <h1>Task Manger</h1>
+ </div>
+<ul class="links">
 <li><a href="index.html">Home</a></li>
 <li><a href="about.html">About</a></li>
 </ul>
-</nav>
+</nav> 
+</header>
 
+<div class="AboutMe">
+    <img src="images/user.jpg" id="profilePic" alt="Me" style="width: 200px;height: 200px;">
+<div class="container">
+    <h2>About Me</h2>
+<p> Hi,I'm Jawhara Shhaltough, a beginner web developer, I created this Task Manager as a part of web development journey.Reach out to me for any inquiries!</p>
+</div>
+</div>
 
+<div class="ContactMeForm">
+    <label for="contactName">Name:</label>
+<input type="text" id="Name">
+<label for="contactName">Email:</label>
+<input type="email" id="contactEmail">
+<div class="msgsumbit">
+<label for="ContactMessage">Message:</label>
+<textarea name="Message" id="ContactMessage"></textarea>
+<button id="submitbutton">Submit</button>
+</div>
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="app.js"></script>
+<footer>  
+<p>
+© 2025 Task Manager Website. Created by Jawhara Shhaltough while learnning web development. All Rights Reserved.
+</p>
+</footer>
+    <script src="js/app.js"></script>
 </body>
 </html>

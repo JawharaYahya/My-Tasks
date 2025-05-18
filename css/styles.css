@@ -1,0 +1,108 @@
+body{
+margin: 0;
+padding: 0;
+background-image: url("../images/bkg.jpg");
+background-size: cover;
+overflow-x: hidden;
+}
+
+.Navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: gainsboro;
+padding: 10px 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo-tittle{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+#profilePic{
+width: 200px;
+height: 200px;
+border-radius: 100px;
+gap: 30px;
+margin-top: 30px;
+margin-left: 15px;
+}
+h2{
+  
+  padding:10px;
+  gap: 10px;
+  margin-left: 10px;
+  font-size: 36px;
+}.AboutMe {
+background-color: rgba(228, 224, 225, 0.808);
+  background-size: 50px;
+  padding: 10px;
+  margin: 75px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p2{
+  display: flex;
+  align-items: center;
+}
+.container{
+display: block;
+align-items: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 24px;
+}
+h2 {
+ 
+}
+.Add-Task{
+  padding-top: 100px;
+  margin: 20px;
+  
+}
+#tasklist li {
+  background-color: white;
+  background-size: 10px;
+  padding: 10px;
+  margin: 20px;
+width: 250px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ContactMeForm{
+  padding: 10px;
+ margin: 75px;
+}
+.msgsumbit{
+ gap: 20px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}
+#submitbutton{
+  padding: 2px;
+  margin: 20px;
+  border-radius: 5%;
+background-color: rgb(123, 199, 8);
+}
+footer{
+  width: 100%;
+  text-align: center;
+  background-color:rgb(92, 91, 92); 
+  color: white;
+  position:fixed;  
+  bottom: 0; 
+  left: 0;
+  font-size: 15px;
+}
+.Select-Status{
+background-color: antiquewhite;
+}
+.PriorityLevel{
+  background-color: aliceblue;
+}
