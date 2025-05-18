@@ -3,43 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task Manger Website</title>
+    <title>Task Manager-Home</title>
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <div class="group">
+   <header>
 <nav class="Navbar">
-<h1>Task Manger</h1>
-<ul>
+    <div class="logo-tittle">
+      <img src="images/LOGO1.png" alt="Website Logo" style="width: 50px; height: 50px;">
+    <h1>Task Manger</h1>
+ </div>
+<ul class="links">
 <li><a href="index.html">Home</a></li>
 <li><a href="about.html">About</a></li>
 </ul>
-</nav>
-<div class="Added-Task">
+</nav> 
+</header>
+
+<div class="Add-Task">
 <input type="text" id="taskAdd" placeholder="Enter your Task"/>
 
 <select id="PriorityLevel">
 <option value="High">High Priority</option>
-<option value="Medium">Medium Priority</option>
+<option  value="Medium">Medium Priority</option>
 <option value="Low">Low Priority</option>
 </select>
-<button id="addbutton">Add Task</button>
+<button id="addbutton" type="button">Add Task</button>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="app.js"></script>
+<ul id="tasklist">
+<li> 
+    <span class="Task-text">Study Java Script - (High)</span>
+<select class="Select-Status">
+<option value="Incompleted">Incompleted</option>
+<option value="InProgress">InProgress</option>
+<option value="Completed">Completed</option>
+</select> 
+</li>
+<li>
+    <span class="Task-text">Finish Assignment- (High)</span>
+<select class="Select-Status">
+<option value="Incompleted">Incompleted</option>
+<option value="InProgress">InProgress</option>
+<option value="Completed">Completed</option>
+</select> 
+</li>
+<li>
+       <span class="Task-text">Play with my nieces- (Low)</span>
+<select class="Select-Status">
+<option value="Incompleted">Incompleted</option>
+<option value="InProgress">InProgress</option>
+<option value="Completed">Completed</option>
+</select> 
+</li>
+</ul>
+<footer >  
+<p>
+© 2025 Task Manager All Rights Reserved.
+</p>
+</footer>
+</div>
+    <script src="js/app.js"></script>
+    
 </body>
 </html>
