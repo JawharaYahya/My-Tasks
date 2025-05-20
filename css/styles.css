@@ -43,20 +43,21 @@ h2{
   font-size: 36px;
 }.AboutMe {
 background-color: rgba(228, 224, 225, 0.808);
+display: flex;
+justify-content: center;
   background-size: 50px;
   padding: 10px;
-  margin: 75px;
+  margin: 50px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-p2{
-  display: flex;
-  align-items: center;
-}
+
 .container{
 display: block;
 align-items: center;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 24px;
+gap: 10px;
+padding: 20px;
 }
 h2 {
  
@@ -77,6 +78,7 @@ width: 250px;
 .ContactMeForm{
   padding: 10px;
  margin: 75px;
+ 
 }
 .msgsumbit{
  gap: 20px;
@@ -105,4 +107,22 @@ background-color: antiquewhite;
 }
 .PriorityLevel{
   background-color: aliceblue;
+}
+.Add-Task{
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+ 
+}
+#taskAdd{
+  border-radius: 20px;
+  text-align: center;
+  gap: 10px;
+}
+.NameEmail{
+display: flex;
+justify-content: center;
+padding: 10px;
 }
