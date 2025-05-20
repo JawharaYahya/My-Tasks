@@ -19,3 +19,7 @@
 ## Wireframe design made thorugh miro:
 
 ![wireframe](images/Capture.JPG)
+
+# Deployment link
+
+https://jawharayahya.github.io/My-Tasks/ 
