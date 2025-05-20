@@ -20,6 +20,6 @@
 
 ![wireframe](images/Capture.JPG)
 
-#Deplying link
+# Deployment link
 
 https://jawharayahya.github.io/My-Tasks/ 
